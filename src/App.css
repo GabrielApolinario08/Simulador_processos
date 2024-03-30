@@ -1,0 +1,124 @@
+.container {
+    box-shadow: 2px 2px 2px red, -2px -2px 2px rgb(9, 233, 9);
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.header {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container_btns {
+    display: flex;
+    gap: 1em;
+}
+
+button {
+    padding: .5em 1em;
+    border: 1px solid transparent;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.btn_executar {
+    background-color: rgb(9, 233, 9);
+}
+
+.btn_finalizar {
+    background-color: rgb(255, 0, 0);
+}
+
+.btn_executar:hover {
+    background-color: #000;
+    color: rgb(9, 233, 9);
+    border: 1px solid rgb(9, 233, 9);
+}
+
+.btn_finalizar:hover {
+    background-color: #000;
+    color: rgb(255, 0, 0);
+    border: 1px solid rgb(255, 0,09);
+}
+
+.container_processos {
+    position: relative;
+    height: 80%;
+}
+
+.estado {
+    height: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+
+.executando {
+    width: 100%;
+    text-align: center;
+}
+
+.espera {
+    bottom: 3%;
+    width: 10%;
+}
+
+.pronto {
+    bottom: 3%;
+    right: 0;
+    width: 10%;
+}
+
+.processo {
+    position: absolute;
+    width: 2.5%;
+    height: 5%;
+    color: green;
+    font-size: 25px;
+    text-align: center;
+}
+
+.processo02 {
+    position: absolute;
+    width: 2.5%;
+    height: 5%;
+    color: red;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.processo_espera {
+    bottom: 2%;
+    left: 3.35%;
+}
+
+.processo_pronto {
+    bottom: 2%;
+    right: 5%;
+}
+
+.processo_executando {
+    right: 48.75%;
+    left: 48.75%;
+    top: 25px;
+}
+
+.processo02_inicial {
+    bottom: 2%;
+    right: 2.5%;
+}
+
+.processo01_inicial {
+    bottom: 2%;
+    right: 5%;
+}
